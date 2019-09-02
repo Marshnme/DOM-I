@@ -58,3 +58,31 @@ ctaText.childNodes[1].textContent = `DOM ${newLine} IS ${newLine}AWESOME`;
 ctaText.childNodes[3].textContent = "Get Started";
 
 console.log(ctaText);
+
+const navBar = document.querySelectorAll("nav");
+
+const navBarOne = document.querySelectorAll("nav");
+navBar[0].children[0].textContent = "Services";
+
+const navBarTwo = document.querySelectorAll("nav");
+navBar[0].children[1].textContent = "Product";
+
+const navBarThree = document.querySelectorAll("nav");
+navBar[0].children[2].textContent = "Vision";
+
+const navBarFour = document.querySelectorAll("nav");
+navBar[0].children[3].textContent = "Features";
+
+const navBarFive = document.querySelectorAll("nav");
+navBar[0].children[4].textContent = "About";
+
+const navBarSix = document.querySelectorAll("nav");
+navBar[0].children[5].textContent = "Contact";
+
+// const navBar = document.querySelectorAll("nav");
+// navBar[0].children[0].textContent = "Services";
+
+// const navBar = document.querySelectorAll("nav");
+// navBar[0].children[0].textContent = "Services";
+
+
