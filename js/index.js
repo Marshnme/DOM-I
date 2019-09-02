@@ -59,7 +59,7 @@ ctaText.childNodes[3].textContent = "Get Started";
 
 console.log(ctaText);
 
-const navBar = document.querySelectorAll("nav");
+let navBar = document.querySelectorAll("nav");
 
 const navBarOne = document.querySelectorAll("nav");
 navBar[0].children[0].textContent = "Services";
@@ -112,3 +112,22 @@ const footerSelec = document.getElementsByTagName("footer");
 
 footerSelec[0].textContent = "Copyright Great Idea! 2018";
 
+
+const textColor = document.getElementsByTagName("a");
+
+
+for (i = 0; i < textColor.length; i++) {
+  textColor[i].style.color = "green";
+};
+
+
+const navNav = document.querySelector("nav")
+let createLink= document.createElement('a');
+let createLinkTwo= document.createElement('a');
+
+createLink.textContent = "newlink1";
+navNav.appendChild(createLink);
+
+
+createLinkTwo.textContent = "newlink2";
+navNav.prepend(createLinkTwo);
